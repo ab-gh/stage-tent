@@ -134,7 +134,7 @@ async def _session_stop(ctx, channel: discord.StageChannel):
             ## If found
             if text:
                 ## Move to Archive and sync
-                await text.edit(category=archive_category, sync_permissions=True)
+                await text.edit(category=archive_category, sync_permissions=True, name=f"{channel.name}-archive")
                 await channel.edit(category=archive_category, sync_permissions=True)
                 ## Delete stage channel
                 await channel.delete()
