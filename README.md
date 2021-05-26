@@ -55,4 +55,5 @@ It will delete the `📢<stage>` Stage Channel.
 
 It will edit the `#<stage>-text` Text Channel with the following permission changes:
 - Move to `ARCHIVE_CATEGORY` category
+- Rename to `#<stage>-archive`
 - Sync permissions to `ARCHIVE_CATEGORY` category
